@@ -14,8 +14,10 @@ Source3:	http://flaw.sourceforge.net/images/wasd.png
 # Source3-md5:	1148a75dcb65c15efe671280fb3d0f94
 URL:		http://flaw.sourceforge.net/
 BuildRequires:	SDL_gfx-devel
+BuildRequires:	SDL_image-devel
 BuildRequires:	SDL_mixer-devel
 BuildRequires:	SDL_ttf-devel
+BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
